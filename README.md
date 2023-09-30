@@ -1,6 +1,6 @@
 # odin-recipes
 
-This is a recipe website using exclusively HTML. Nothing new yet but trained my muscle memory so that's a plus
+This is a recipe website using HTML and CSS. Learnt how to use css a little bit, so that's quite nice.
 
 Recipe references: 
 https://www.allrecipes.com/perfect-pancakes-recipe-7568285
