@@ -1,0 +1,64 @@
+* {
+    font-family:sans-serif
+}
+
+body {
+    background-color:lightgoldenrodyellow;
+}
+
+.title {
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:bisque;
+    border: 2px solid black;
+}
+
+#center {
+    text-align: center;
+}
+
+.images {
+    width:900px;
+    height:auto;
+    border: 5px solid black;
+}
+
+.index-list,
+.nutrition-list {
+    color:black;
+    list-style-position: inside;
+    font-family: sans-serif;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 5px;
+    text-align: center;
+    margin:auto;
+}
+
+.index-list {
+    font-size: 20px;
+    border: 2px dashed black;
+    width: 800px;
+}
+
+.nutrition-list {
+    font-size: 18px;
+    border: 2px solid black;
+    width: 270px;
+}
+
+.nutrition-alignment {
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+}
+
+   
+
+
+
+
