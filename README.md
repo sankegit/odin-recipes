@@ -1,6 +1,6 @@
 # odin-recipes
 
-This is a recipe website using HTML and CSS. Learnt how to use css a little bit, so that's quite nice.
+This is a recipe website created using HTML and CSS. Learnt how to use css a little bit, so that's quite nice.
 
 Recipe references: 
 https://www.allrecipes.com/perfect-pancakes-recipe-7568285
