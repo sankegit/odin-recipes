@@ -4,6 +4,8 @@
 
 body {
     background-color:lightgoldenrodyellow;
+    max-width:1500px;
+    margin:auto;
 }
 
 .title {
@@ -17,8 +19,8 @@ body {
     text-align: center;
 }
 
-.images {
-    width:900px;
+.images,
+.title-images {
     height:auto;
     border: 5px solid black;
 }
@@ -45,6 +47,8 @@ body {
     font-size: 18px;
     border: 2px solid black;
     width: 270px;
+     text-align: center;
+    border-top: 1px solid black;
 }
 
 .nutrition-alignment {
@@ -57,8 +61,25 @@ body {
     text-decoration: none;
 }
 
-   
+.title-list,
+.title-text {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+ 
+.images {
+    width:900px;
+}
 
+.title-images {
+    width:330px;
+    height:295px;
+}
 
-
-
+.title-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width:350px;
+    text-align: center;
+}
