@@ -118,7 +118,7 @@ body {
 .list-text {
     display:flex;
     flex-flow: wrap column;
-    margin-top: 5px;
+    margin-top:5px;
     list-style:disc;
 }
 
