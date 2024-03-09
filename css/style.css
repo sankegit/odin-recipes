@@ -15,14 +15,13 @@ body {
     border: 2px solid black;
 }
 
-#center {
-    text-align: center;
-}
 
-.images,
-.title-images {
+.images {
     height:auto;
     border: 5px solid black;
+    width:900px;
+    display: block;
+    margin:auto;
 }
 
 .index-list,
@@ -61,25 +60,32 @@ body {
     text-decoration: none;
 }
 
-.title-list,
-.title-text {
+.recipe-list {
     display: flex;
     justify-content:space-around;
     list-style: none;
 }
- 
-.images {
-    width:900px;
+
+.recipe-list-objects {
+    display:flex;
+    flex-flow: wrap column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10px;
+    border:3px solid;
 }
 
-.title-images {
+.recipe-images {
     width:330px;
     height:295px;
+    border-bottom: 3px solid;
 }
 
-.title-text {
-    font-family: 'Times New Roman', Times, serif;
+.recipe-text {
+    border:0px;
     font-size: 20px;
-    width:350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     text-align: center;
+    color:black;
 }
