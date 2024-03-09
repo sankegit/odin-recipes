@@ -8,11 +8,20 @@ body {
     margin:auto;
 }
 
-.title {
+.title,
+.ingredients-title {
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
     background-color:bisque;
-    border: 2px solid black;
+}
+
+.ingredients-title {
+    display:flex;
+    flex-flow: wrap;
+}
+
+.title {
+    border:2px solid;
 }
 
 
@@ -46,7 +55,7 @@ body {
     font-size: 18px;
     border: 2px solid black;
     width: 270px;
-     text-align: center;
+    text-align: center;
     border-top: 1px solid black;
 }
 
@@ -62,7 +71,7 @@ body {
 
 .recipe-list {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     list-style: none;
 }
 
@@ -72,13 +81,13 @@ body {
     align-items: center;
     background-color: white;
     padding-bottom: 10px;
-    border:3px solid;
+    border:2px solid;
 }
 
 .recipe-images {
     width:330px;
     height:295px;
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
 }
 
 .recipe-text {
@@ -89,3 +98,27 @@ body {
     text-align: center;
     color:black;
 }
+
+.list-objects {
+    display:flex;
+    flex-flow: wrap column;
+    border: 2px solid;
+    flex-basis: auto;
+    width:400px;
+}
+
+.list-title {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    border-bottom: 2px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-text {
+    display:flex;
+    flex-flow: wrap column;
+    margin:auto;
+    list-style:disc;
+}
+
